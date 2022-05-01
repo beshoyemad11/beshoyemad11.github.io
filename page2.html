@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>acount information</title>
+    
+</head>
+<style>
+    body{
+        background-image: url("back.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+
+        
+    }
+    
+    #result1,
+    #result2,
+    #result3,
+    #result4{
+        width: 100px;
+        height: 200px;
+        padding: 10px;
+        margin-top: 10px ;
+        font-size: 30px;
+        font-weight: 600;
+        color:black;
+        padding: 2px 2px;
+        
+
+    }
+    .h21{
+        margin-top: 100px;
+
+    }
+    h2{
+        margin: -2px ;
+        margin-top: 10px;
+        
+    }
+
+    p{
+        font-size: 50px;
+        font-weight: 700;
+        padding-left: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 45px;
+        color:brown;
+    }
+    .input{
+        font-size: 30px;
+        
+        color: brown;
+        margin-left: 170px;
+        margin-top: 100px;
+       
+    }
+  
+
+</style>
+
+<body>
+    
+<p> welcome your acount information ..! </p>
+    <h2 class="h21"><span class="input"> first name: </span>  <span id="result1"></span></h2>
+   
+    <br>
+    <h2><span class="input"> last name:</span> <span id="result2"></span></h2>
+    <br>
+    <h2><span class="input"> email:</span> <span id="result3"></span></h2>
+    <br>
+    <h2><span class="input"> password:</span><span id="result4"></span></h2>
+
+
+
+    <script>
+    document.getElementById("result1").innerHTML = localStorage.getItem("textvalue1");
+    document.getElementById("result2").innerHTML = localStorage.getItem("textvalue2");
+    document.getElementById("result3").innerHTML = localStorage.getItem("textvalue3");
+    document.getElementById("result4").innerHTML = localStorage.getItem("textvalue4");     
+</script>
+
+
+</body>
+
+
+</html>
