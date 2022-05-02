@@ -1,12 +1,14 @@
 body {
-    background-color: #344a72;
+    background-color: #151615;
     font-family: "Roboto", sans-serif;
-    background-image: url("download.jpg");
+    background-image: url(download.jpg);
+    background-size: contain;
+    background-size: 100%;
   }
   
   .signup-box {
     width: 360px;
-    height: 600px;
+    height: 500px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
@@ -52,4 +54,31 @@ body {
   }
 .function{
   background-color: black;
+}
+.ie{
+  width: 100%;
+  height: 100px;
+  background-color: #afa5a5;
+  border: 2px solid black;
+  text-align: center;
+  color: black;
+
+}
+.if {
+  position: relative;
+  background-color: #aa0f04;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  margin-left: 10px;
 }
